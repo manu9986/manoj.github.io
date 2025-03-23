@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Manoj T M - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.5rem;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 2rem auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+            border-bottom: 3px solid #4CAF50;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+        .section {
+            margin-bottom: 3rem;
+        }
+        .about-me {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .about-me p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .project, .certification, .skill, .education {
+            background: #f9f9f9;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project:hover, .certification:hover, .skill:hover, .education:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .project h3, .certification h3, .skill h3, .education h3 {
+            margin-top: 0;
+            color: #4CAF50;
+            font-size: 1.75rem;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .contact a {
+            margin: 0 1rem;
+            color: #4CAF50;
+            font-size: 1.5rem;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .contact a:hover {
+            color: #3e8e41;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            background: #4CAF50;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            header p {
+                font-size: 1.2rem;
+            }
+            h2 {
+                font-size: 1.75rem;
+            }
+            .project h3, .certification h3, .skill h3, .education h3 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Manoj T M</h1>
+        <p>Computer Science Engineer (AIML)</p>
+    </header>
+    <div class="container">
+        <section class="section">
+            <h2>About Me</h2>
+            <div class="about-me">
+                <p>I am a Computer Science Engineer specializing in AI and Machine Learning. With a strong foundation in data structures, algorithms, and cloud computing, I am passionate about leveraging technology to solve real-world problems. I am proficient in Java, Python, and C, and have experience working with databases like MySQL.</p>
+            </div>
+        </section>
+        <section class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Sign Language Detection using LSTM Deep Learning</h3>
+                <p>Developed a real-time sign language detection system using LSTM networks, enabling better accessibility for the hearing impaired.</p>
+            </div>
+            <div class="project">
+                <h3>Optimizing Quantum Circuits using Qiskit Quantum Computing</h3>
+                <p>Worked on optimizing quantum circuits for improved performance and lower computational cost using Qiskit.</p>
+            </div>
+            <div class="project">
+                <h3>Book Web Application</h3>
+                <p>Developed a book web application using Servlets and JSP, enabling users to browse, search, and manage book listings efficiently.</p>
+            </div>
+            <div class="project">
+                <h3>Adaptive Storytelling System</h3>
+                <p>Built an AI-driven storytelling system that dynamically generates narratives based on a sequence of images using Generative AI and the BLIP model. Enhanced interactive storytelling by integrating image-to-text generation, improving user engagement.</p>
+            </div>
+            <div class="project">
+                <h3>Sudoku Solver using Data Structures</h3>
+                <p>Implemented an efficient Sudoku solver leveraging advanced data structures to improve computation speed and accuracy.</p>
+            </div>
+        </section>
+        <section class="section">
+            <h2>Certifications</h2>
+            <div class="certification">
+                <h3>Mastering Big Data Analytics</h3>
+                <p>Coursera - Jan 2024</p>
+            </div>
+            <div class="certification">
+                <h3>Microsoft AI-900</h3>
+                <p>Microsoft- Feb 2025</p>
+            </div>
+            <div class="certification">
+                <h3>Quantum Computing with Qiskit Ultimate Masterclass</h3>
+                <p>Udemy - May 2024</p>
+            </div>
+            <div class="certification">
+                <h3>Data Visualization with R</h3>
+                <p>Coursera - Nov 2023</p>
+            </div>
+        </section>
+        <section class="section">
+            <h2>Skills</h2>
+            <div class="skill">
+                <h3>Hard Skills</h3>
+                <ul>
+                    <li>Machine Learning</li>
+                    <li>Big Data Analysis</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Cloud Computing</li>
+                    <li>Artificial Intelligence</li>
+                    <li>LLM'S</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>C</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Databases</h3>
+                <ul>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Communication</li>
+                    <li>Adaptability</li>
+                    <li>Time Management</li>
+                    <li>Motivation</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Languages</h3>
+                <ul>
+                    <li>English</li>
+                    <li>Kannada</li>
+                    <li>Hindi</li>
+                    <li>Telugu</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section">
+            <h2>Education</h2>
+            <div class="education">
+                <h3>B.Tech in Computer Science (AI ML)</h3>
+                <p>REVA University - 2021 - 2025</p>
+                <p>CGPA: 9.09 (till 7th semester)</p>
+            </div>
+            <div class="education">
+                <h3>12th Grade</h3>
+                <p>Sri Chaitanya PU College - 2019 - 2021</p>
+                <p>Percentage: 83.6%</p>
+            </div>
+            <div class="education">
+                <h3>10th Grade</h3>
+                <p>Holy Cross School, Bengaluru - 2018 - 2019</p>
+                <p>Percentage: 91%</p>
+            </div>
+        </section>
+        <section class="section">
+            <h2>Contact</h2>
+            <div class="contact">
+                <a href="mailto:manugowda6160@gmail.com" title="Email"><i class="fas fa-envelope"></i> Email</a>
+                <a href="http://linkedin.com/in/manoj-t-m-664884259/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="tel:+918088119986" title="Phone"><i class="fas fa-phone"></i> Phone</a>
+                <a href="https://github.com/manu9986" target="_blank" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Manoj T M. All rights reserved.</p>
+    </footer>
+</body>
+</html>
